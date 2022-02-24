@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find your favorite food</title>
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/e410289398.js" crossorigin="anonymous"></script>
+    <!-- Vanilla CSS link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="title">Find Your Favorite Food</h2>
+                <blockquote>Real food doesn't have ingredients, real food is ingredients.<br>
+                <cite>- Janie Oliver</cite></blockquote>
+                <div class="meal-search-box">
+                    <input type="text" class="search-control" placeholder="Enter your food name" id="search-input">
+                    <button type="submit" class="search-btn" id="search-btn"><i class="fas fa-search"></i></button>
+                </div>                
+            </div>
+
+            <div class="meal-result">
+                <h2 class="title">You Search Results</h2>
+                <div id="meal">
+                    <!-- meal item -->
+                    <div class="meal-item">
+                        <div class="meal-img">
+                            <img width="350px" src="image/burder.jpg" alt="Burger">
+                        </div>
+                        <div class="meal-name">
+                            <h3>Chicken Burger</h3>
+                            <a href="#" class="recipe-btn">Get Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
